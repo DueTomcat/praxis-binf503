@@ -177,12 +177,12 @@ cp .env.example .env
 npm start
 ```
 
-The API runs at `http://localhost:3000».
+The API runs at `http://localhost:3000`.
 
 | Environment variable | Description |
 |---|---|
-| `MONGODB_URI» | MongoDB connection string |
-| `JWT_SECRET» | Secret used to sign authentication tokens |
+| `MONGODB_URI` | MongoDB connection string |
+| `JWT_SECRET` | Secret used to sign authentication tokens |
 
 ### Front end
 
@@ -192,4 +192,4 @@ npm install
 npm run dev
 ```
 
-The frontend runs at `http://localhost:5173» by default.
+The frontend runs at `http://localhost:5173` by default.
