@@ -1,0 +1,15 @@
+{
+  "name": "kustomize-backend",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^8.20.0"
+  }
+}
